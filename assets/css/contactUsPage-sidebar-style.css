@@ -1,0 +1,38 @@
+
+#Menu-button {
+    display: none;
+    font-size: 1.5rem;
+    margin-top: -0.2vh;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(218, 218, 218, 0.358);
+    visibility: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+    padding-left: 2vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.sidebar li:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+#header-title-top-left-X {
+    margin-top: 5vh;
+    margin-bottom: -3vh;
+}

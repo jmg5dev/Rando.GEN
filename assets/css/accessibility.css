@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+
+/*================*/
+/* HEADER SECTION */
+/*================*/
+.header-section {
+    border: none;
+    display: flex;
+    height: 15vh;
+    width: 100%;
+}
+
+.purple-period-title {
+    color: #a171ff;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-options ul {
+    display: flex;
+    list-style: none;
+    gap: 7vh;
+    font-family: Montserrat;
+}
+
+#header-title-top-left {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-right: 35vw;
+}
+
+#header-title-top-left:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #a171ff;
+}
+
+#header-title-top-left a{
+    text-decoration: none;
+    color: black;
+}
+
+#header-title-top-left a:visited {
+    color: #000000;
+}
+
+.header-options-top-right {
+    margin-top: 1vh;
+    font-weight: Bold;
+}
+
+.header-options-top-right a{
+    color: #000000;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header-options-top-right svg {
+    vertical-align: middle;
+    fill: #a171ff;
+}
+
+.header-options-top-right:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5vh;
+    text-decoration-color: #a171ff;
+}
+
+
+/*==================================*/
+/* START OF DROPDOWN MENU SELECTION */
+/*==================================*/
+.dropdown {
+    position: relative; /* Required for dropdown positioning */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1; /* Ensure it appears above other elements */
+    border-radius: 5px;
+    top: 100%; /* Position below the parent */
+    flex-direction: column; /* Ensures the items stack in a column */
+    left: -1vw;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ensures the column layout */
+    flex-direction: column;
+    gap: 10px; /* Optional: Adds spacing between items */
+}
+
+.dropdown-content ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    display: block; /* Ensures the link takes up full width */
+    padding: 5px 5px; /* Optional: Adds padding for better click area */
+}
+
+.dropdown-content ul li a:hover {
+    color: #a171ff;
+    text-decoration: underline;
+    background-color: rgba(161, 113, 255, 0.1); /* Optional: Highlight on hover */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: flex; /* Flexbox makes it stack as a column */
+}
+
+
+/*=============*/
+/*  MAIN BODY  */
+/*=============*/
+.accessibility-statement-box {
+    border: none;
+    height: 90vh;
+    font-family: Montserrat;
+    margin-top: 15vh;
+}
+
+.accessibility-statement-title {
+    border: none;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 15vh;
+}
+
+.accessibility-statement-p {
+    border: none;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    height: 60vh;
+    line-height: 4.5vh;
+}
+
+
+/*================*/
+/* FOOTER SECTION */
+/*================*/
+.footer-section {
+    height: 60vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    font-family: Montserrat;
+}
+
+.inner-footer-section {
+    border: none;
+    height: 50vh;
+    width: 90%;
+    margin-top: -5vh;
+}
+
+.footer-header-top-left h3{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.top-underline-dash-footer {
+    border-top: solid;
+    width: 100%;
+    margin-top: 1vh;
+    border-color: #ccc;
+}
+
+.footer-info {
+    display: flex;
+    border: none;
+    height: 35vh;
+    width: 93%;
+    margin-top: 6vh;
+    margin-left: 3vw;
+}
+
+.company-info,
+.products-info,
+.privacy-info  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    height: 35vh;
+    width: 15vw;
+}
+
+.social-media-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    height: 35vh;
+    width: 40vw;
+}
+
+.inner-company-info,
+.inner-products-info,
+.inner-privacy-info,
+.inner-social-media-info {
+    border: none;
+    height: 100%;
+}
+
+.company-info-header h4,
+.products-info-header h4,
+.privacy-info-header h4 {
+    border: none;
+    margin-top: 2vh;
+    padding: 0;
+}
+.social-media-info-header h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.company-info-ulist,
+.products-info-ulist,
+.privacy-info-ulist {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    border: none;
+    height: 25vh;
+    width: 10vw;
+    margin-top: -2vh;
+    padding: 0;
+    font-size: 1.3vw;
+    gap: 2vh;
+}
+
+.company-info-ulist a:hover,
+.products-info-ulist a:hover,
+.privacy-info-ulist a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.social-media-ulist {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    border: none;
+    height: 7vh;
+    width: 30vw;
+    padding: 0;
+    gap: 3vw;
+}
+
+.social-media-ulist li {
+    height: 3vh;
+    width: 3vw;
+}
+
+.company-info-ulist a,
+.products-info-ulist a,
+.privacy-info-ulist a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-media-ulist a svg{
+    text-decoration: none;
+    color: #000000;
+    height: 5vh;
+    width: 5vw;
+}
+
+.social-media-ulist a svg:hover {
+    color: #a171ff;
+}
+
+.bottom-underline-dash-footer {
+    border-top: solid;
+    border-color: #ccc;
+    margin-top: 5vh;
+    margin-bottom: -2vh;
+}
+
+.rights-reserved-section{
+    width: 90%;
+}
+
+.right-reserved-header h5{
+    border: none;
+    font-size: 1vw;
+}

@@ -1,0 +1,261 @@
+
+/* SMALLER THAN THIS WIDTH PIXELS */
+/* WHEN HEADER GETS SMALLER */
+/* SIZE MAYBE FOR LARGE TABLET OR SMALL LAPTOP */
+
+@media (max-width: 1100px){
+    .header-options {
+        height: 8vh;
+        background-color: white;
+    }
+    .header-options ul{
+        width: 100%;
+    }
+    #header-title-top-left {
+        margin-right: 0vw;
+    }
+    #header-title-top-left a{
+        margin-bottom: 45vw;
+        font-size: 1.3rem;
+    }
+    #HideOnMobile {
+        display: none;
+    }
+    #Menu-button {
+        display: block !important;
+        margin-left: auto;
+        margin-right: 7vh;
+    }
+
+    .main-body-privacy-policy-statement-box {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .privacy-policy-numbered-box {
+        width: 80%;
+    }
+    .privacy-policy-title {
+        margin-top: 0;
+        font-size: 3em;
+    }
+    .privacy-policy-date {
+        font-size: 1.5em;
+    }
+    .private-policy-item {
+        font-size: 1.5em;
+    }
+    p,
+    li {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+/* SMALLER THAN THIS WIDTH PIXELS */
+/*   PHONE SCREEN SIZE (IPHONE)   */
+@media (max-width: 500px){
+    .header-options {
+        height: 8vh;
+        background-color: white;
+    }
+    .header-options ul{
+        width: 100%;
+    }
+    #header-title-top-left {
+        margin-right: 0vw;
+    }
+    #header-title-top-left a{
+        margin-bottom: 45vw;
+        font-size: 1.3rem;
+    }
+    #HideOnMobile {
+        display: none;
+    }
+    #Menu-button {
+        display: block !important;
+        margin-left: 10vh;
+        margin-right: 1vh;
+    }
+
+
+
+    .main-body-privacy-policy-statement-box {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 160rem;
+    }
+    .privacy-policy-numbered-box {
+        width: 80%;
+        height: 100%;
+    }
+    .privacy-policy-title {
+        margin: 0;
+        font-size: 1.3rem;
+        margin-bottom: 4rem;
+    }
+    .privacy-policy-date {
+        font-size: 0.7rem;
+    }
+    .private-policy-item {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+    li {
+        font-size: 0.7rem;
+    }
+
+
+
+    .footer-section {
+        height: 37rem;
+    }
+    .inner-footer-section {
+        height: 100%;
+    }
+    .footer-header-top-left {
+        margin-top: 5vh;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+        margin-top: 2vh;
+    }
+    .company-info {
+        width: 10rem;
+        height: 8rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .products-info {
+        width: 15rem;
+        height: 7rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .privacy-info {
+        width: 9rem;
+        height: 7rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .social-media-info {
+        width: 100%;
+        height: 7rem;
+        margin-top: 3vh;
+    }
+
+
+
+    .about-us-section {
+        width: 100%;
+        margin: 0;
+    }
+    .about-us-title {
+        display: flex;
+        text-align: center;
+    }
+    .about-us-tiles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 2rem;
+    }
+    .mission,
+    .who-we-are,
+    .what-we-offer,
+    .why-it-matters, 
+    .future-goals {
+        margin: 0;
+        width: 65%;
+        height: 25rem;
+    }
+
+
+    .accessibility-statement-box {
+        margin: 0;
+        height: 65rem;
+    }
+    .accessibility-statement-title {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+    .accessibility-statement-p {
+        font-size: 0.7rem;
+    }
+
+    
+    .inner-footer-section .social-media-info {
+        display: flex;
+        align-items: center;
+    }
+    .inner-company-info,
+    .inner-products-info,
+    .inner-privacy-info {
+        width: 100%;
+    }
+
+    .company-info-ulist,
+    .products-info-ulist, 
+    .privacy-info-ulist {
+        width: 70%;
+    }
+    .company-info-ulist li,
+    .products-info-ulist li, 
+    .privacy-info-ulist li {
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    
+    .inner-social-media-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 8rem;
+    }
+    .social-media-info-header {
+        height: 3rem;
+    }
+    .social-media-ulist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 12vw;
+        margin-left: -5vw;
+    }
+    .social-media-ulist li a svg {
+        width: 5vh;
+    }
+
+
+    .bottom-underline-dash-footer {
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+
+
+    .rights-reserved-section {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .right-reserved-header h5{
+        display: flex;
+        justify-content: center;
+        font-size: 2.4vw;
+    }
+}
